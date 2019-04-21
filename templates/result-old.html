@@ -1,0 +1,19 @@
+
+<!doctype html>
+<html>
+   <body>
+    <table>
+  <tr>
+    <th>patientid</th>
+    <th>output</th>
+
+  </tr>
+
+    {% for result in results %}
+  <tr>
+    <td>{{result.p}}</td>
+    <td>{{result.r}}</td>
+
+  </tr>
+{% endfor %}
+</table>
